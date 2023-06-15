@@ -3,7 +3,7 @@
     public interface IBaseRepository<T>
     {
         Task<T> Add(T entity);
-        Task<T> Update (T entity);
-        bool save();
+        T Update (T entity);
+        Task<int> Save();
     }
 }
