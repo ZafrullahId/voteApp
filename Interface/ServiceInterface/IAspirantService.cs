@@ -6,7 +6,7 @@ namespace voteApp.Interfaces.ServiceInterface
     public interface IAspirantService
     {
         Task<BaseResponse<AspirantDto>> RegisterAspirant(CreateAspirantModelRequest model);
-
+        Task<BaseResponse<AspirantDto>> RegisterAspirant(CreateAspirantModelRequest model);
         Task<BaseResponse<AspirantDto>> GetById(string id);
 
         Task<BaseResponse<AspirantDto>> GetByName(string name);
