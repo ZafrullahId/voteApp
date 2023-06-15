@@ -1,4 +1,4 @@
-﻿namespace VotingApp.Models.Enums
+﻿namespace VoteApp.Models.Enums
 {
     public enum Eligibility
     {

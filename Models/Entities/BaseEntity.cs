@@ -1,4 +1,4 @@
-﻿namespace VotingApp.Models.Entities
+﻿namespace VoteApp.Models.Entities
 {
     public abstract class BaseEntity
     {

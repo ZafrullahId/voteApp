@@ -1,7 +1,7 @@
-﻿using VotingApp.Models.Entities;
+﻿using VoteApp.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace SysVoting.Data
+namespace VoteApp.Data
 {
     public class ApplicationDbContext : DbContext
     {
@@ -37,6 +37,6 @@ namespace SysVoting.Data
 
         public DbSet<User> Users { get;}
 
-        public DbSet<Voting> Votings { get; set; }
+        public DbSet<Vote> Votings { get; set; }
     }
 }

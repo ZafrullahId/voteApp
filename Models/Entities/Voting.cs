@@ -1,6 +1,6 @@
-﻿namespace VotingApp.Models.Entities
+﻿namespace VoteApp.Models.Entities
 {
-    public class Voting : BaseEntity
+    public class Vote : BaseEntity
     {
         
     }

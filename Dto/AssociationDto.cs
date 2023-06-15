@@ -1,4 +1,4 @@
-﻿namespace SysVoting.Dto
+﻿namespace VoteApp.Dto
 {
     public class AssociationDto
     {

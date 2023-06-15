@@ -1,6 +1,6 @@
-﻿using VotingApp.Models.Enums;
+﻿using VoteApp.Models.Enums;
 
-namespace VotingApp.Models.Entities
+namespace VoteApp.Models.Entities
 {
     public class Position : BaseEntity
     {

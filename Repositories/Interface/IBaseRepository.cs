@@ -1,4 +1,4 @@
-﻿namespace OnlineRestaurant.Repositories.Interface
+﻿namespace VoteApp.Repositories.Interface
 {
     public interface IBaseRepository<T>
     {
