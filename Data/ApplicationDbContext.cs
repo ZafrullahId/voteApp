@@ -37,6 +37,6 @@ namespace VoteApp.Data
 
         public DbSet<User> Users { get;}
 
-        public DbSet<Voting> Votings { get; set; }
+        public DbSet<Vote> Votings { get; set; }
     }
 }

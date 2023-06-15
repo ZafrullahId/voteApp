@@ -1,5 +1,3 @@
-﻿using VoteApp.Dto;
-
 namespace VoteApp.Dto
 {
     public class ElectionDto

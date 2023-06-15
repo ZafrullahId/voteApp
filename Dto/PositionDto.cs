@@ -1,4 +1,4 @@
-﻿using VoteApp.Models.Entities;
+using VoteApp.Models.Entities;
 using VoteApp.Models.Enums;
 
 namespace VoteApp.Dto

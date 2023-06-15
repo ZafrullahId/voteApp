@@ -1,4 +1,3 @@
-﻿
 
 namespace VoteApp.Dto
 {
