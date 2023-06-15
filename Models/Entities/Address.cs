@@ -1,4 +1,4 @@
-﻿namespace VoteApp.Models.Entities
+namespace VoteApp.Models.Entities
 {
     public class Address : BaseEntity
     {

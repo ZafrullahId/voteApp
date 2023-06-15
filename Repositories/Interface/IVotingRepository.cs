@@ -1,7 +1,6 @@
 
+using VoteApp.Models.Entities
 using System.Linq.Expressions;
-using VoteApp.Models.Entities;
-using VoteApp.Repositories.Interface;
 
 namespace VoteApp.Repositories.Interface
 {

@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using VoteApp.Models;
 
-namespace Voting.Controllers
+namespace VoteApp.Controllers
 {
     public class HomeController : Controller
     {
