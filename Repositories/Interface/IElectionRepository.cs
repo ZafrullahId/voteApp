@@ -1,7 +1,7 @@
-﻿using SysVoting.Models.Entities;
+﻿using VoteApp.Models.Entities;
 using System.Linq.Expressions;
 
-namespace SysVoting.Repositories.Interface
+namespace VoteApp.Repositories.Interface
 {
     public interface IElectionRepository : IBaseRepository<Election>
     {

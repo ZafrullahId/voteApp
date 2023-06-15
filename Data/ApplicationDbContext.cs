@@ -1,7 +1,7 @@
-﻿using VotingApp.Models.Entities;
+﻿using VoteApp.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace SysVoting.Data
+namespace VoteApp.Data
 {
     public class ApplicationDbContext : DbContext
     {

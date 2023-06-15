@@ -1,6 +1,44 @@
-﻿namespace SysVoting.Dto
+﻿using VoteApp.Dto;
+using VotingApp.Models.Entities;
+using VotingApp.Models.Enums;
+
+namespace VoteApp.Dto
 {
     public class AssociationDto
     {
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public IFormFile Image { get; set; }
+        public string PhoneNumber { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public Gender Gender { get; set; }
+        public Disability Disability { get; set; }
+        public ICollection<RoleDto> Roles { get; set; } = new HashSet<RoleDto>();
+        public AspirantDto AspirantDto { get; set; }
+        public ElectoralChairmanDto ElectoralChairmanDto { get; set; }
+        public string MemberName { get; set; }
+        public int Plot { get; set; }
+        public string Street { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string Country { get; set; }
+        public ICollection<ElectionDto> Elections { get; set; } = new HashSet<ElectionDto>();
+        public ICollection<MemberDto> Members { get; set; } = new HashSet<MemberDto>();
+    }
+
+    public class CreateAssociationRequestModel
+    {
+        public string Name { get; set; }
+        public string Description { get; set; }
+    }
+
+    public class UpdateAssociationRequestModel
+    {
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }
