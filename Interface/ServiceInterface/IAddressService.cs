@@ -1,5 +1,6 @@
 ﻿using VoteApp.Dto;
 using VoteApp.Dto.ResponseModel;
+using static VoteApp.Dto.AddressDto;
 
 namespace voteApp.Interfaces.ServiceInterface
 {
